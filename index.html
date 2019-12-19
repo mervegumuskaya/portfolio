@@ -8,6 +8,7 @@
 </head>
 <body>
     <header>
+        <h1>Merve Gumuskaya Portfolio</h1>
         <nav>
             <ul>
                 <li><a href="#about_me">About Me</a></li>
@@ -19,9 +20,14 @@
     <section>
         <h3><a id="about_me">About Me</a></h3>
         <article>
-            <p>
-                Hi! My name is Merve. I have studied Electrical and Electronics Engineering at Eskisehir. Currently I am working as a developer at Turkish Airlines. I am also developing web pages as a freelancer. I love travelling and taking photographs.
-            </p>
+            <figure>
+                <img src="./portfolio_photo.png" alt="Merve Gumuskaya" height="200" width="160">
+            </figure>
+            <aside>
+                <p>
+                    Hi! My name is Merve. I have studied Electrical and Electronics Engineering at Eskisehir. Currently I am working as a developer at Turkish Airlines. I am also developing web pages as a freelancer. I love travelling and taking photographs.
+                </p>
+            </aside>
         </article>
     </section>
     <section>
@@ -31,23 +37,38 @@
                 Here are the links to the web pages I have created:
             </p>
             <div>
-                <a href="http://www.mervegumuskaya.com">Merve Gumuskaya</a><br>
-                <a href="#">abc</a><br>
-                <a href="#">xyz</a><br>
+                <a href="http://www.mervegumuskaya.com" target="_blank" rel="noopener">Merve Gumuskaya</a><br>
+                <a href="#" target="_blank" rel="noopener">abc</a><br>
+                <a href="#" target="_blank" rel="noopener">xyz</a><br>
             </div>
         </article>
     </section>
     <section>
         <h3><a id="contact">Contact</a></h3>
-        <!-- Here I will add a form so anyone can contact me -->
         <form>
-
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" name="firstname" placeholder="Your Name..."><br>
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="lname" name="lastname" placeholder="Your Last Name..."><br>
+            <label for="country">Country</label><br>
+            <select id="country" name="country">
+                <option value="turkey">Turkey</option>
+                <option value="iraq">Iraq</option>
+                <option value="syria">Syria</option>
+                <option value="eritre">Eritre</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select><br>
+            <label for="subject">Subject</label><br>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea><br>
+            <input type="submit" action="#" value="Submit">
         </form>
         <p>Here are my social media accounts:</p>
         <div>
-            <a href="https://github.com/mervegumuskaya">GitHub</a>
-            <a href="https://www.instagram.com/mervegumuskaya/">Instagram</a>
-            <a href="http://www.mervegumuskaya.com">Personal Webpage</a>
+            <a href="https://github.com/mervegumuskaya" target="_blank" rel="noopener">GitHub</a><br>
+            <a href="https://www.instagram.com/mervegumuskaya/" target="_blank" rel="noopener">Instagram</a><br>
+            <a href="http://www.mervegumuskaya.com" target="_blank" rel="noopener">Personal Webpage</a>
         </div>
     </section>
 </body>
